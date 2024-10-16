@@ -1,0 +1,122 @@
+body{
+    font-family: 'Courier New', Courier;
+    margin: 0;
+    padding: 0;
+}
+.about-company {
+    max-width: 800px;        
+    margin: 20px auto;      
+    padding: 20px;          
+    background-color: #f9f9f9;
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    font-size: 18px;     
+    line-height: 1.6;        
+    color: #333;             
+}
+.about-company h2 {
+    text-align: center;     
+    color: #669933;          
+}
+.head-container{
+    text-align: center;
+    background-color:#669933;
+    padding: 40px;
+    color: white;
+    width:100%;
+    box-sizing: border-box;
+}
+.main-header{
+    font-size: 44px;
+    font-weight: bold;
+    margin: 0;
+    line-height: 1.2;
+}
+.subhead{
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 0;
+    line-height: 0;
+}
+.menu{
+    list-style: none;        
+            padding: 0;               
+            margin-top: 30px;         
+            display: flex;            
+            justify-content: center;  
+            gap: 80px;               
+}
+.menu li {
+    font-size: 20px;
+}
+
+.menu a {
+    text-decoration: none;    
+    color: white;             
+    font-weight: bold;
+    transition: color 0.3s; 
+}
+
+.menu a:hover {
+    color: #0033CC;          
+}
+.knopka {
+    background-color: transparent; 
+    border: 2px white; 
+    color: white; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    position: absolute; 
+    top: 10px;
+    right: 10px;
+}
+
+.contact-form {
+    max-width: 600px;     
+    margin: 20px auto;     
+    padding: 20px;           
+    border: 1px solid #ccc;  
+    border-radius: 5px;      
+    background-color: #f9f9f9; 
+}
+
+.form-group {
+    margin-bottom: 15px;   
+}
+
+.form-group label {
+    display: block;         
+    margin-bottom: 5px;    
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;     
+    padding: 10px;          
+    border: 1px solid #ccc; 
+    border-radius: 5px;    
+}
+
+.form-group button {
+    background-color:#669933 ; 
+    color: white;             
+    padding: 10px 15px;      
+    border: none;           
+    border-radius: 5px;     
+    cursor: pointer;         
+    transition: background-color 0.3s; 
+}
+
+.form-group button:hover {
+    background-color: #0033CC; 
+}
+
+footer {
+    color: black;              
+    text-align: center;        
+    padding: 10px 0;          
+    position: relative;        
+    bottom: 0;                 
+    width: 100%;              
+    box-sizing: border-box;  
+}

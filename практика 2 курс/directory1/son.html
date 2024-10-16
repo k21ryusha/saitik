@@ -3,39 +3,67 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Заголовок страницы</title>
-    <link rel="stylesheet" href="./styles/style.css">
-    <meta property="og:title" content="Заголовок страницы в OG">
-    <meta property="og:description" content="Описание страницы в OG">
-    <meta property="og:image" content="https://example.com/image.jpg">
-    <meta property="og:url" content="https://example.com/">
+    <title>АйТи Групп</title>
+    <link rel="stylesheet" href="mama.css">
   </head>
   <body>
-    <header>
-      <h1>Личный сайт</h1>
-      <p>Который сделан на основе готового шаблона(неправда сам делал) </p>
+    <header class = "head-container">
+      <h1 class="main-header">AйТи Групп</h1>
+      <p class = "subhead">агенство веб-дизайна</p>
+      <ul class="menu">
+        <li><a href="son.html">Главная</a></li>
+        <li><a href="#">О нас</a></li>
+        <li><a href="#">Услуги</a></li>
+        <li><a href="#">Портфолио</a></li>
+        <li><a href="#">Контакты</a></li>
+    </ul>
     </header>
     <main>
-      <article>
-        <section>
-          <h2>Первая секция</h2>
-          <p>Она обо мне</p>
-          <p>Человек и пароход</p>
-          <p>Но может быть и о семантике, я пока не решил.</p>
+        <section class = "about-company">
+          <h2>Краткая информация</h2>
+          <p>АйТи Групп — успешное агентство веб-дизайна с шестилетним опытом работы на рынке.</p>
+          <p>Мы предлагаем широкий спектр услуг в области веб-дизайна, включая создание уникальных сайтов, разработку пользовательских интерфейсов, SEO-оптимизацию и многое другое.</p> 
+          <p>Наша команда состоит из молодых и талантливых специалистов, которые страстно стремятся радовать клиентов и обеспечивать высокий уровень сервиса.</p>
+           <p> Мы гордимся своей репутацией и продолжаем поддерживать статус надежного партнера в сфере веб-разработки.</p>
+            <p> Наша миссия — создавать качественные и эффективные интернет-решения, которые помогут вашему бизнесу расти и развиваться.</p>
         </section>
-        <section>
-          <h2>Вторая секция</h2>
-          <p>Она тоже обо мне</p>
-        </section>
-        <section>
-          <h2>И третья</h2>
-          <p>Вы уже должны были начать догадываться.</p>
-        </section>
-      </article>
+        <a href="https://itgroupp.ru/ru" target="_blank">
+          <button class = "knopka" type="button">
+            <img src="knopka.png"
+            alt="Иконка" width="40" height="40" alt = "">
+          </button>   
+          </a>
+      <section class="contact">
+        <h2 align = "center">Сделать заказ</h2>
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Электронная почта:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Название услуги:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Сообщение:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">Отправить</button>
+            </div>
+        </form>
+    </section>
     </main>
     <footer>
-      <p>Сюда бы я вписал информацию об авторе и ссылки на другие сайты</p>
+      <p>&copy; 2024 Айти Групп</p>
+      <p>работу выполнил:</p>
+      <p>Андропов Кирилл</p>
+      <p>студент МГТУ имени Н.Э.Баумана</p>
+      <p>Группа ИУ3-33Б</p>
     </footer>
-    <!-- сюда можно подключить jquery <script src="scripts/app.js" defer></script> -->
   </body>
 </html>
