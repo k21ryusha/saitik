@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>АйТи Групп</title>
-    <link rel="stylesheet" href="mama.css">
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <header class = "head-container">
@@ -12,10 +12,9 @@
       <p class = "subhead">агенство веб-дизайна</p>
       <ul class="menu">
         <li><a href="son.html">Главная</a></li>
-        <li><a href="#">О нас</a></li>
-        <li><a href="#">Услуги</a></li>
-        <li><a href="#">Портфолио</a></li>
-        <li><a href="#">Контакты</a></li>
+        <li><a href="about_us.html">О нас</a></li>
+        <li><a href="service.html">Услуги</a></li>
+        <li><a href="contact.html">Контакты</a></li>
     </ul>
     </header>
     <main>
@@ -35,7 +34,7 @@
           </a>
       <section class="contact">
         <h2 align = "center">Сделать заказ</h2>
-        <form class="contact-form">
+        <form class="contact-form" action="send_mail.php" method = "POST">
             <div class="form-group">
                 <label for="name">Имя:</label>
                 <input type="text" id="name" name="name" required>
@@ -45,8 +44,8 @@
                 <input type="email" id="email" name="email" required>
             </div>
             <div class="form-group">
-                <label for="phone">Название услуги:</label>
-                <input type="tel" id="phone" name="phone" required>
+                <label for="service">Название услуги:</label>
+                <input type="service" id="service" name="service" required>
             </div>
             <div class="form-group">
                 <label for="message">Сообщение:</label>
@@ -59,7 +58,7 @@
     </section>
     </main>
     <footer>
-      <p>&copy; 2024 Айти Групп</p>
+      <p>2024 Айти Групп</p>
       <p>работу выполнил:</p>
       <p>Андропов Кирилл</p>
       <p>студент МГТУ имени Н.Э.Баумана</p>
